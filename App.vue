@@ -15,7 +15,7 @@
 export default {
   data () {
     return {
-      todos: {xx,yy}
+      todos: [xx,yy]
     }
   }
 }
