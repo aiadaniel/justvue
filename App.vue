@@ -4,6 +4,7 @@
         <ul>
             <li v-for="todo in todos">
                 <span>{{ todo.text }}</span>
+                
                 <button v-on:click="removeTodo($index)">X</button>
             </li>
         </ul>
